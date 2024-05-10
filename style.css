@@ -1,9 +1,41 @@
+*{
+   margin: 0px;
+   padding: 0px;
+}
 body{
     background: url(assets/bg-mobile.jpg) no-repeat top center/cover;
 }
 #container{
     width: 360px;
-    height: 712px;
-    border: 1px solid black;
-    margin: auto;
+    margin: 56px auto 0px;
+    
+    
+}
+.profile img {
+    border-radius: 50%;
+  
+}
+.profile{
+    text-align: center;
+}
+.profile h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    margin-top: 8px;
+}
+ul{
+    list-style: none;
+    flex-direction: column;
+    gap: 8px;
+}
+ul li {
+    border: 1px solid red;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    
 }
